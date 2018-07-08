@@ -1,0 +1,37 @@
+{
+  "name": "node-crypto-cli",
+  "version": "0.1.0",
+  "description": "CLI for the crypto module to encrypt / decrypt files in your machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wingkwong/node-crypto-cli.git"
+  },
+  "keywords": [
+    "encrypt",
+    "decrypt",
+    "file-encryption",
+    "file-decryption",
+    "crypto",
+    "cli"
+  ],
+  "author": "Wing Kam Wong - @wingkwong",
+  "license": "MIT",
+  "bin": {
+    "node-crypto-cli": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/wingkwong/node-crypto-cli/issues"
+  },
+  "homepage": "https://github.com/wingkwong/node-crypto-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "crypto": "^1.0.1",
+    "fs": "0.0.1-security",
+    "md5": "^2.2.1"
+  }
+}
