@@ -10,7 +10,7 @@ const fs = require('fs');
 cli
   .version('0.1.0', '-v, --version')
   .arguments('<file>')
-  .option('-p, --password <password>', 'Password used to encrypt')
+  .option('-p, --password <password>', 'Password used to encrypt and decrypt')
   .option('-a, --action <action>', 'Either encrypt or decrypt', /^(encrypt|decrypt)$/i)
   .action(function(file) {
     if(cli.action != 'encrypt' && cli.action != 'decrypt') {
